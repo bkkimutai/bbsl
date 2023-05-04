@@ -151,7 +151,7 @@ input[type=text],input[type=email],#comment{
 .form-control::-webkit-input-placeholder { 
   color: white; 
 }
-#MERGE1{
+#MERGE2{
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
@@ -160,7 +160,12 @@ input[type=text],input[type=email],#comment{
   padding-bottom: 20px;
   
 }
-#MERGE0{
+#MERGE1{
+  width: 30%;
+  margin-left: 18%;
+  margin-right: 30px;
+}
+#MERGE01{
   width: 30%;
   margin-left: 20%;
   margin-right: 20%;
@@ -169,6 +174,9 @@ input[type=text],input[type=email],#comment{
   padding-top: 1px;
   padding-bottom: 1px;
   font-family: 'Gabriela', serif;
+}
+#MERGE0{
+  width: 30%;
 }
 #comment{
   margin-left: 20%;
