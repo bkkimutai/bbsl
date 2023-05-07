@@ -4,7 +4,7 @@ const router = express.Router();
 
 router.get("/aboutus", (req, res) =>{
     console.log("about-us page accessed");
-    res.render("aboutus", {});
+    res.render("aboutus", {title : "aboutus"});
 
 });
 
