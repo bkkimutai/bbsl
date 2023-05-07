@@ -6,11 +6,14 @@ const servicesRouter = require('./routes/services');
 
 app.set('view engine', 'ejs');
 
-// add middleware
+// add middleware & static files
 app.use(aboutusRouter.router);
 app.use(servicesRouter.router);
+app.use(express.static('public'));
 
 
+
+//listen to requests
 app.listen(3000, ()=>{
 
     console.log("Server is running...")
