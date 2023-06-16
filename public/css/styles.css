@@ -28,6 +28,10 @@ html{
   padding: 2px;
   margin: 5px;
 }
+.landing h2 {
+  margin: 0;
+  padding: 2px;
+}
 .landing p{
   padding: 2px;
 }
